@@ -7,6 +7,13 @@ HTML/CSSの軽微修正、レスポンシブ調整、AI生成HTMLの整理を中
 - AI生成HTML・LP軽微修正サービス  
   https://part676392.github.io/ai-html-fix-service-site/
 
+## すぐ相談できる小修正
+
+- 3,000円目安: 1ページ内の余白、横スクロール、画像はみ出し、ボタン位置など1〜3箇所
+- 5,000円目安: ECサイトやLPへのQ&A/FAQセクション追加
+- 納品物: 修正HTML/CSS差分、PC/スマホ幅の確認メモ、変更理由メモ
+- 相談時に必要なもの: 公開URL、直したい箇所、優先する画面幅
+
 ## 対応できること
 
 - AI生成HTML・LPの表示崩れ修正
@@ -31,6 +38,13 @@ HTML/CSSの軽微修正、レスポンシブ調整、AI生成HTMLの整理を中
 
 ## 相談先
 
-公開できる範囲の見積もり相談は、以下のIssueから送れます。
+公開できる範囲の見積もり相談は、以下から送れます。GitHubアカウントがない場合はメールで相談できます。
 
+メール:
+part676392@gmail.com
+
+相談フォーム:
+https://part676392.github.io/ai-html-fix-service-site/#request
+
+GitHub Issue:
 https://github.com/part676392/ai-html-fix-service-site/issues/new/choose
