@@ -48,3 +48,12 @@ https://part676392.github.io/ai-html-fix-service-site/#request
 
 GitHub Issue:
 https://github.com/part676392/ai-html-fix-service-site/issues/new/choose
+
+## データ資産
+
+### 転職・新卒 選考対策 目録データベース
+https://part676392.github.io/dsh-money-engine/
+
+600本の面接対策・ES資料を491社ぶん企業名で横断検索できる目録。
+毎週 refreshed され、取得日の差分を `data/history/` に蓄積していく。
+機械可読: https://part676392.github.io/dsh-money-engine/data/snapshot-latest.json
