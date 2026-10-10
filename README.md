@@ -52,8 +52,17 @@ https://github.com/part676392/ai-html-fix-service-site/issues/new/choose
 ## データ資産
 
 ### 転職・新卒 選考対策 目録データベース
-https://part676392.github.io/dsh-money-engine/
+https://part676392.github.io/dsh-money-engine/?src=prof
 
-600本の面接対策・ES資料を491社ぶん企業名で横断検索できる目録。
-毎週 refreshed され、取得日の差分を `data/history/` に蓄積していく。
-機械可読: https://part676392.github.io/dsh-money-engine/data/snapshot-latest.json
+600本の面接対策・ES資料を 491社ぶんの企業名で横断検索できる目録。実測:
+
+- 面接質問の実文 **1,779 問**（472社／抽出 1,873 span のうち 94 は企業に帰属できないので別列に分離）
+- 質問カテゴリの並び順 **5,494 行**（467社）— 逆質問はほぼ常に最後（中央値 10番目）
+- 公式選考フロー **56 本**（22社）、段階への言及 **2,021 件**（475社・根拠文つき）
+- 巡回は **毎日 06:10 / 19:40 JST** に自動で走り、取得日を `data/history/` に積む（観測 3 件・実行背骨 6 行、各行に SHA-256）
+
+機械可読: https://part676392.github.io/dsh-money-engine/exports/manifest.csv
+1社だけの抽出 **$5** から: https://part676392.github.io/dsh-money-engine/data-license.html?src=prof
+CSV の中身を見る（3社ぶんの実物）: https://part676392.github.io/dsh-money-engine/sample.html?src=prof
+
+記事の著作権は原作者に残す前提で、出典URLと引用1文までを公開しています（本文の再配布はしません）。
